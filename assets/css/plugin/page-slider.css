@@ -1,0 +1,33 @@
+.elementor-page-carousel-icons {
+  display: none;
+}
+@media screen and (min-width: 37.5em) {
+  .elementor-page-carousel-icons {
+    display: block;
+  }
+}
+.elementor-page-carousel-icons .page-carousel-icon-wrapper .elementor-dtbaker-page-slider-icons {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+.elementor-page-carousel-icons .page-carousel-icon-wrapper .elementor-dtbaker-page-slider-icons > div {
+  cursor: pointer;
+  display: table-cell;
+  width: 1%;
+  vertical-align: middle;
+  text-align: center;
+  height: 140px;
+  background: #EFEFEF;
+  transition: background-color 300ms linear;
+}
+.elementor-page-carousel-icons .page-carousel-icon-wrapper .elementor-dtbaker-page-slider-icons > div.current {
+  background: #FFF;
+}
+.elementor-page-carousel-icons .page-carousel-icon-wrapper .elementor-dtbaker-page-slider-icons > div h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: #000;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi90aGVtZXMvcGx1Z2lucy9kdGJha2VyLXBhZ2Utc2xpZGVyL2Nzcy9wYWdlLXNsaWRlci5sZXNzIiwiPGlucHV0IGNzcyAyPiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGNBQUE7Q0NDRDtBREdDO0VBMEJEO0lBNUJHLGVBQUE7R0NHRDtDQUNGO0FEUEQ7RUFPTSxlQUFBO0VBQ0EsWUFBQTtFQUNBLG9CQUFBO0NDR0w7QURaRDtFQVdRLGdCQUFBO0VBQ0Esb0JBQUE7RUFDQSxVQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtFQUNBLDBDQUFBO0NDSVA7QURITztFQUNFLGlCQUFBO0NDS1Q7QUR6QkQ7RUF1QlUsVUFBQTtFQUNBLFdBQUE7RUFDQSxvQkFBQTtFQUNBLFlBQUE7Q0NLVCIsImZpbGUiOiJ0by5jc3MifQ== */

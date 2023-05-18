@@ -1,0 +1,65 @@
+.breadcrumbs .trail-browse,.breadcrumbs .trail-items,.breadcrumbs .trail-items li {display: inline-block;margin:0;padding: 0;border:none;background:transparent;text-indent: 0;}.breadcrumbs .trail-browse {font-size: inherit;font-style:inherit;font-weight: inherit;color: inherit;}.breadcrumbs .trail-items {list-style: none;}.trail-items li::after {content: "\002F";padding: 0 0.5em;}.trail-items li:last-of-type::after {display: none;}
+
+
+
+							#page {
+					background-image: url(../../../assets/image/theme/header-flowers-all.png);
+				}
+			
+
+						.site-header .site-branding .site-title {
+				display: none !important;
+			}
+
+					
+
+
+body.custom-background { background-image: url("../../../assets/image/theme/wood-tile.jpg"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: fixed; }
+
+
+#pastel_top_title h1, .entry-header h1, .elementor-widget-heading h1.elementor-heading-title, .elementor-widget-heading h1.elementor-heading-title.elementor-size-large, .elementor-widget-heading h2.elementor-heading-title, .elementor-widget-heading h2.elementor-heading-title.elementor-size-large { color: #c88462; font-family: 'Kristi'; font-size: 79px; font-style: normal; font-weight: 400; padding-top: 15px; padding-bottom: 20px; }
+#masthead .site-title h1 { color: #c88462; font-family: 'Kristi'; font-size: 60px; font-style: normal; font-weight: 400; }
+.main-navigation, .main-navigation a, .dtbaker_icon_text h3 { color: #c88462; font-family: 'Raleway'; font-size: 20px; font-style: normal; font-weight: 400; }
+a,a:link,a:visited { color: #b77b5d; }
+a:hover, .main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a { color: #e4b7a0; }
+body { color: #666666; font-family: 'Open Sans'; font-size: 14px; font-style: normal; font-weight: 400; }
+#footer_widgets .widget-title { color: #c88462; font-family: 'Kristi'; font-size: 47px; font-style: normal; font-weight: 400; }
+.sidebar .widget .widget_content, #footer_widgets .widget_content { color: #666666; font-size: 14px; font-style: normal; padding-bottom: 10px; }
+.widget-title, .widget_box_style .textwidget, .pastel_circle_wrap .dtbaker_icon_text, .widget_search .widget_content .searchform .searchsubmit, .widget .widget_content h4 { color: #bc7b53; font-family: 'Raleway'; font-size: 20px; font-style: normal; font-weight: 400; }
+.blog-title h1.entry-title { color: #a5a5a5; font-family: 'Raleway'; font-size: 30px; font-style: normal; font-weight: 400; margin-bottom: 26px; }
+p { }
+h1 { color: #a5a5a5; font-family: 'Raleway'; font-size: 40px; font-style: normal; font-weight: 400; }
+h2 { color: #a5a5a5; font-family: 'Raleway'; font-size: 30px; font-style: normal; font-weight: 400; }
+h3 { color: #a5a5a5; font-family: 'Raleway'; font-size: 25px; font-style: normal; font-weight: 400; }
+
+
+
+			article.blog-summary.pastel_featured_image_style_normal .blog-image div a img[width="200"][height="220"] {
+				-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+				clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+				-webkit-clip-path: url("#polygon-clip-hexagon");
+				clip-path: url("#polygon-clip-hexagon");
+			}
+
+			@media only screen and (min-width: 769px) {
+				.pastel-diagonal-left {
+					-webkit-clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+					clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+					-webkit-clip-path: url("#clip-diagonal-left");
+					clip-path: url("#clip-diagonal-left");
+                    z-index:40;
+                    transform: translate3d(0, 0, 0);
+                }
+
+				.pastel-diagonal-right {
+					-webkit-clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+					clip-path: polygon(0 0, 100% 8%, 100% 100%, 0 100%);
+					-webkit-clip-path: url("#clip-diagonal-right");
+					clip-path: url("#clip-diagonal-right");
+                    z-index:40;
+                    transform: translate3d(0, 0, 0);
+                }
+			}
+
+		
+
